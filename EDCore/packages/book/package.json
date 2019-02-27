@@ -1,0 +1,41 @@
+{
+  "name": "@edcore/book",
+  "main": "node_modules/expo/AppEntry.js",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll",
+    "update": "rnstl"
+  },
+  "config": {
+    "react-native-storybook-loader": {
+      "searchDir": [
+        "./src/"
+      ],
+      "pattern": "**/*.stories.js",
+      "outputFile": "./storybook/storyLoader.js"
+    }
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@edcore/ui": "^0.0.1",
+    "@expo/samples": "2.1.1",
+    "@storybook/addon-ondevice-knobs": "^4.0.8",
+    "@storybook/addon-ondevice-notes": "^4.0.8",
+    "@storybook/react-native": "^4.0.9",
+    "expo": "^30.0.1",
+    "react": "16.3.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-30.0.0.tar.gz",
+    "react-native-storybook-loader": "^1.8.0"
+  },
+  "devDependencies": {
+    "jest-expo": "30.0.0",
+    "typescript": "3.2.4"
+  }
+}

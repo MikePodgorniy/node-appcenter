@@ -1,0 +1,10 @@
+{
+  "name": "@edcore/ui",
+  "version": "0.0.1",
+  "description": "EnglishDom RN Core UI Components",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Mike Podgorniy"
+}
